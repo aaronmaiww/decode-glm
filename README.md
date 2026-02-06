@@ -7,8 +7,8 @@ This repository contains the essential code for reproducing key results from our
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/aaronmaiww/sae_for_glm.git
-cd sae_for_glm
+git clone https://github.com/aaronmaiww/decode-glm.git
+cd decode-glm
 ```
 
 ### 2. Install Dependencies
