@@ -1,0 +1,116 @@
+{
+  "run_metadata": {
+    "timestamp": "2025-10-15T11:45:59.536554",
+    "model_type": "identity",
+    "f1_type": "standard",
+    "batch_size": 128,
+    "layer_num": 8,
+    "sae_model_path": null,
+    "activation_dim": 512,
+    "dict_size": 4096,
+    "k": 32,
+    "model_name": "nt50",
+    "command_line_args": {
+      "f1_type": "standard",
+      "batch_size": 128,
+      "output_dir": "/content/drive/MyDrive/SAEs_for_Genomics/sae_latent_eval/MLP-neuron-baseline/",
+      "layer_num": 8,
+      "device": "cuda",
+      "model_type": "identity",
+      "sae_model_path": null,
+      "activation_dim": 512,
+      "dict_size": 4096,
+      "k": 32,
+      "model_name": "nt50"
+    }
+  },
+  "summary_statistics": {
+    "val_0": {
+      "mean_f1": 0.10912070421377607,
+      "max_f1": 0.4329004329004329,
+      "min_f1": 0.00939757009121171,
+      "std_f1": 0.11483398170675944,
+      "num_latents": 13,
+      "top_f1_latents": [
+        {
+          "latent_id": 205,
+          "best_f1_val0": 0.4329004329004329
+        },
+        {
+          "latent_id": 53,
+          "best_f1_val0": 0.2079207920792079
+        },
+        {
+          "latent_id": 58,
+          "best_f1_val0": 0.1951219512195122
+        },
+        {
+          "latent_id": 276,
+          "best_f1_val0": 0.1174178601516428
+        },
+        {
+          "latent_id": 418,
+          "best_f1_val0": 0.10539367637941723
+        }
+      ]
+    },
+    "val_1": {
+      "mean_f1": 0.09101232687699681,
+      "max_f1": 0.36576787807737393,
+      "min_f1": 0.0,
+      "std_f1": 0.09983826410369827,
+      "num_latents": 13,
+      "top_f1_latents": [
+        {
+          "latent_id": 205,
+          "best_f1_val1": 0.36576787807737393
+        },
+        {
+          "latent_id": 53,
+          "best_f1_val1": 0.19085487077534793
+        },
+        {
+          "latent_id": 58,
+          "best_f1_val1": 0.1358024691358025
+        },
+        {
+          "latent_id": 276,
+          "best_f1_val1": 0.1250920045873915
+        },
+        {
+          "latent_id": 418,
+          "best_f1_val1": 0.10252904989747094
+        }
+      ]
+    },
+    "val_2": {
+      "mean_f1": 0.08169418800608101,
+      "max_f1": 0.2944444444444445,
+      "min_f1": 0.0,
+      "std_f1": 0.08482129505339984,
+      "num_latents": 13,
+      "top_f1_latents": [
+        {
+          "latent_id": 205,
+          "best_f1_val2": 0.2944444444444445
+        },
+        {
+          "latent_id": 53,
+          "best_f1_val2": 0.199203187250996
+        },
+        {
+          "latent_id": 276,
+          "best_f1_val2": 0.11769165508402676
+        },
+        {
+          "latent_id": 58,
+          "best_f1_val2": 0.11464968152866241
+        },
+        {
+          "latent_id": 418,
+          "best_f1_val2": 0.10032362459546927
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "run_metadata": {
+    "timestamp": "2025-10-15T09:58:34.310197",
+    "model_type": "identity",
+    "f1_type": "standard",
+    "batch_size": 128,
+    "layer_num": 9,
+    "sae_model_path": null,
+    "activation_dim": 512,
+    "dict_size": 4096,
+    "k": 32,
+    "model_name": "nt50",
+    "command_line_args": {
+      "f1_type": "standard",
+      "batch_size": 128,
+      "output_dir": "/content/drive/MyDrive/SAEs_for_Genomics/sae_latent_eval/",
+      "layer_num": 9,
+      "device": "cuda",
+      "model_type": "identity",
+      "sae_model_path": null,
+      "activation_dim": 512,
+      "dict_size": 4096,
+      "k": 32,
+      "model_name": "nt50"
+    }
+  },
+  "summary_statistics": {
+    "val_0": {
+      "mean_f1": 0.11248288579157562,
+      "max_f1": 0.4,
+      "min_f1": 0.0,
+      "std_f1": 0.0973876155852326,
+      "num_latents": 19,
+      "top_f1_latents": [
+        {
+          "latent_id": 246,
+          "best_f1_val0": 0.4
+        },
+        {
+          "latent_id": 58,
+          "best_f1_val0": 0.24675324675324672
+        },
+        {
+          "latent_id": 24,
+          "best_f1_val0": 0.19197207678883071
+        },
+        {
+          "latent_id": 310,
+          "best_f1_val0": 0.19047619047619047
+        },
+        {
+          "latent_id": 484,
+          "best_f1_val0": 0.18367346938775508
+        }
+      ]
+    },
+    "val_1": {
+      "mean_f1": 0.06735267012230006,
+      "max_f1": 0.41379310344827586,
+      "min_f1": 0.0,
+      "std_f1": 0.09290599779861279,
+      "num_latents": 19,
+      "top_f1_latents": [
+        {
+          "latent_id": 246,
+          "best_f1_val1": 0.41379310344827586
+        },
+        {
+          "latent_id": 24,
+          "best_f1_val1": 0.13043478260869565
+        },
+        {
+          "latent_id": 310,
+          "best_f1_val1": 0.12154696132596686
+        },
+        {
+          "latent_id": 378,
+          "best_f1_val1": 0.10677618069815195
+        },
+        {
+          "latent_id": 58,
+          "best_f1_val1": 0.0990566037735849
+        }
+      ]
+    },
+    "val_2": {
+      "mean_f1": 0.07552742813721458,
+      "max_f1": 0.3,
+      "min_f1": 0.0,
+      "std_f1": 0.07880386575163383,
+      "num_latents": 19,
+      "top_f1_latents": [
+        {
+          "latent_id": 246,
+          "best_f1_val2": 0.3
+        },
+        {
+          "latent_id": 24,
+          "best_f1_val2": 0.17808219178082194
+        },
+        {
+          "latent_id": 58,
+          "best_f1_val2": 0.15458937198067635
+        },
+        {
+          "latent_id": 378,
+          "best_f1_val2": 0.1464530892448513
+        },
+        {
+          "latent_id": 310,
+          "best_f1_val2": 0.12941176470588234
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+!!python/object:interplm.train.configs.TrainingRunConfig
+dataloader_cfg: !!python/object:interplm.train.data_loader.DataloaderConfig
+  plm_embd_dir: dummy
+  batch_size: 1
+  seed: 0
+  samples_to_skip: 0
+  n_shards_to_include: 0
+trainer_cfg: !!python/object:interplm.train.trainers.relu.ReLUTrainerConfig
+  expansion_factor: 32
+  dictionary_size: 10240
+  lr: 0.0
+  activation_dim: 320
+  epochs: 0
+  steps: 0
+  warmup_steps: 0
+  decay_start: 0
+  resample_steps: null
+eval_cfg: !!python/object:interplm.train.evaluation.EvaluationConfig
+  eval_seq_path: null
+  eval_embd_dir: null
+  eval_batch_size: 1
+  eval_steps: 0
+wandb_cfg: !!python/object:interplm.train.wandb_manager.WandbConfig
+  use_wandb: false
+  wandb_entity: your-wandb-entity
+  wandb_project: dummy
+  wandb_name: dummy
+  wandb_id: dummy
+  log_steps: 0
+checkpoint_cfg: !!python/object:interplm.train.checkpoint_manager.CheckpointConfig
+  save_dir: dummy
+  save_steps: 0
+  max_ckpts_to_keep: 1
