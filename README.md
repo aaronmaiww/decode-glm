@@ -1,8 +1,8 @@
 # Decode-gLM: Tools to Interpret, Audit, and Steer Genomic Language Models 
 
-This repository contains the essential code for reproducing key results from our paper **Decode-gLM: Tools to Interpret, Audit, and Steer Genomic Language Models**.
+This repository contains the essential code for reproducing key results from our paper [**Decode-gLM: Tools to Interpret, Audit, and Steer Genomic Language Models**](https://www.biorxiv.org/content/10.1101/2025.10.31.685860v4).
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone Repository
 
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ### 3. Request Access to Datasets
 
-The datasets required for reproduction contain proprietary Addgene plasmid sequences and are available to qualified researchers upon request. Please contact [contact information] with:
+The datasets required for reproduction contain proprietary Addgene plasmid sequences and are available to qualified researchers upon request. Please contact aaron[dot]maiwald[at]st-hildas[dot]ox[dot]ac[dot]uk with:
 1. Brief description of research purpose  
 2. Institutional affiliation
 3. Agreement to use data solely for research purposes
@@ -47,7 +47,7 @@ print("Downloaded to", local)
 
 ---
 
-## 📊 Key Results Reproduction
+## Key Results Reproduction
 
 This repository enables reproduction of four key results from our paper:
 
@@ -112,7 +112,7 @@ cd scripts/
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── scripts/
@@ -139,7 +139,7 @@ cd scripts/
 └── requirements.txt                         # Python dependencies
 ```
 
-## 🔧 Advanced Configuration
+## Advanced Configuration
 
 ### SAE Training Parameters
 
@@ -175,7 +175,7 @@ python scripts/train_sae_hyperparameter_sweep.py \
 ```
 
 
-## 📚 Citation
+## Citation
 
 If you use this code, please cite our paper:
 
@@ -195,13 +195,3 @@ If you use this code, please cite our paper:
 
 #
 
-## Data Availability Statement
-
-The training and validation datasets contain proprietary Addgene plasmid sequences and are available to qualified researchers upon request. Please contact [contact information] with:
-1. Brief description of research purpose
-2. Institutional affiliation  
-3. Agreement to use data solely for research purposes
-
----
-
-**Hardware Requirements**: GPU recommended for training (>=8GB VRAM). CPU-only mode supported but significantly slower.
