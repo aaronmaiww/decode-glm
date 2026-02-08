@@ -26,7 +26,7 @@ The datasets required for reproduction contain proprietary Addgene plasmid seque
 
 ### 4. Download Pre-trained Models (Optional)
 
-We host our trained SAE weights on the Hugging Face Model Hub:
+We host our trained SAE weights on the [Hugging Face Model Hub](https://huggingface.co/mawairon/models):
 
 ```bash
 pip install huggingface_hub
@@ -79,7 +79,7 @@ jupyter notebook notebooks/Steering_AMR_notebook_.ipynb
 - `src/steering_utils_pj.py` - Core steering functions
 - Expected runtime: 24-72 minutes on GPU for full experiment
 
-### Result 3: Meta-SAE for Cross-Feature Analysis  
+### Result 3: Meta-SAE for Complex Feature Discovery  
 **Main Result**: Meta-SAEs trained on SAE decoder weights show latent specialised on HIV.
 
 ```bash
@@ -95,7 +95,7 @@ jupyter notebook notebooks/metaSAE_eval_HIVprobe.ipynb
 ### Result 4: BLAST Analysis of Training Data
 **Main Result**: CMV enhancer sequences are present in the nucleotide transformer pretraining corpus.
 
-**Setup**: First download the nucleotide transformer pretraining corpus:
+**Setup**: First download the [nucleotide transformer pretraining corpus](https://huggingface.co/datasets/InstaDeepAI/multi_species_genomes):
 1. **Download the nucleotide transformer pretraining corpus** (genomic .fna files)
 2. **Place all .fna files** in the same directory as the BLAST script
 
