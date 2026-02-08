@@ -76,7 +76,7 @@ jupyter notebook notebooks/Steering_AMR_notebook_.ipynb
 
 **Key Files**:
 - `data/steering_results/fixed_activation_steering.csv` - Pre-computed steering results
-- `src/steering_utils_pj.py` - Core steering functions
+- `src/steering_utils.py` - Core steering functions
 - Expected runtime: 24-72 minutes on GPU for full experiment
 
 ### Result 3: Meta-SAE for Complex Feature Discovery  
